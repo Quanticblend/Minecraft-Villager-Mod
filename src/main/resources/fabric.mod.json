@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "villagerplus",
+  "version": "${version}",
+  "name": "Villager Plus",
+  "description": "Villagers stop walking into walls: they detect when they're stuck, hop up ledges, open fence gates (and close them behind them), and find a new route. Hand a villager an iron sword to make it a guard that patrols and defends its post.",
+  "authors": ["YOUR-USERNAME"],
+  "contact": {
+    "homepage": "https://github.com/YOUR-USERNAME/villagerplus",
+    "sources": "https://github.com/YOUR-USERNAME/villagerplus",
+    "issues": "https://github.com/YOUR-USERNAME/villagerplus/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/villagerplus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.villagerplus.VillagerPlus"]
+  },
+  "mixins": ["villagerplus.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
